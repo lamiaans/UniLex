@@ -2,7 +2,6 @@ services:
   - type: web
     name: unilex-api
     runtime: python
-    plan: free
     buildCommand: "bash build.sh"
     startCommand: "uvicorn main:app --host 0.0.0.0 --port $PORT"
     rootDir: backend
