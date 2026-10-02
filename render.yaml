@@ -12,6 +12,5 @@ services:
   - type: web
     name: unilex-frontend
     runtime: static
-    plan: free
     buildCommand: ""
     staticPublishPath: frontend
